@@ -18,17 +18,17 @@ int main() {
     int A[] = { 5, 2, 4, 6, 1, 3 };
     const int n = 6;
 
-    std::cout << "Unsorted array: \n";
+    std::cout << "Unsorted array:\n";
     for (int i = 0; i < n; i++) {
         std::cout << A[i] << " ";
     }
-    std::cout << "\n \n";
+    std::cout << "\n\n";
 
     InsertionSort(A, n);
 
-    std::cout << "Sorted array: \n";
+    std::cout << "Sorted array:\n";
     for (int i = 0; i < n; i++) {
         std::cout << A[i] << " ";
     }
-    std::cout << "\n";
+    std::cout << '\n';
 }
